@@ -1,4 +1,4 @@
-resource "google_storage_bucket" "sample_bucket" {
+resource "google_storage_bucket" "sample_bucket2" {
    name          = "poc-gcs-prisma-policy-test-3"
    project       = var.project_id
    location      = var.region
